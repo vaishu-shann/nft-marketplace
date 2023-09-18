@@ -1,0 +1,24 @@
+.t-nft{
+    max-width: 1250px;
+    width: 100%;
+    margin:0px auto;
+    padding: 0px 0;
+}
+.nft-colln{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin:30px auto;
+}
+@media screen and (max-width:960px) {
+    .t-nft{
+        padding: 15px;
+    }
+    .nft-colln{
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    }
+}

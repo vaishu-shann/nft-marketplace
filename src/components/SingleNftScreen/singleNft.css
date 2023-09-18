@@ -1,0 +1,231 @@
+.nftSec {
+  max-width: 1250px;
+  width: 100%;
+  margin: 40px auto 0;
+}
+.single-nft {
+  margin: 50px auto 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.sec-l {
+  width: 40%;
+}
+.sec-r {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: baseline;
+}
+.sgl-nft {
+  width: 75%;
+  border-radius: 8px;
+  border: none;
+  display: block;
+  margin: 20px auto;
+}
+.nft-name {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #cbccd1;
+}
+.nft-desc {
+  margin-top: 25px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  color: #cbccd19c;
+  letter-spacing: 0.8px;
+}
+.nft-tags {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 15px;
+}
+.nft-single-tag {
+  width: 90px;
+  padding: 10px;
+  text-align: center;
+  color: #cbccd1;
+  font-size: 13px;
+  font-weight: 400;
+  border: 1px solid #ce00e6;
+  border-radius: 8px;
+  margin-top: 15px;
+  margin-right: 20px;
+}
+.s-nft-price {
+  color: #cbccd1;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 20px 0 10px;
+}
+.s-nft-eth {
+  color: #ce00e6;
+  font-size: 20px;
+  font-weight: 500;
+}
+.owner-data {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin-bottom: 0px;
+  margin-top: 35px;
+}
+.own-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.m5 {
+  margin-left: 25px;
+}
+.Name {
+  color: #cbccd1;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+.Wallet {
+  color: #cbccd1;
+  font-size: 14px;
+  line-height: 22px;
+  padding-top: 5px;
+}
+.sec-l {
+  /* background: rgba( 206, 0, 230, 0.1 )!important;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.17 )!important;
+    backdrop-filter: blur( 0.5px )!important;
+    -webkit-backdrop-filter: blur( 0.5px )!important;
+    border: 1px solid rgba( 255, 255, 255, 0.18 )!important; */
+}
+.l-bid {
+  background-color: #48485042;
+  width: 93%;
+  color: #cbccd1;
+  font-size: 14px;
+  line-height: 22px;
+  padding: 8px 15px;
+  margin: 25px 0 15px;
+}
+.s-bid {
+  border: 2px solid #48485042;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  /* align-items: baseline; */
+  justify-content: space-between;
+  width: 93%;
+  padding: 8px 14px;
+  margin-bottom: 10px;
+}
+.user-sec {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.bid-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.bid-by {
+  color: #cbccd1;
+  font-size: 16px;
+  line-height: 22px;
+}
+.bid-price {
+  color: #cbccd19c;
+  font-size: 14px;
+  line-height: 22px;
+}
+.s-date {
+  color: #cbccd19c;
+  font-size: 12px;
+  line-height: 22px;
+  margin-top: 5px;
+}
+
+.more-like {
+  margin: 75px auto 25px;
+}
+
+.more-head {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 22px;
+  color: #fff !important;
+  margin-bottom: 15px;
+}
+
+.more-data {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px auto 20px;
+}
+
+@media screen and (max-width: 960px) {
+  .nftSec {
+    padding: 10px;
+  }
+  .single-nft {
+    flex-direction: column;
+    margin: 0px auto 0;
+  }
+  .more-like .nft-card {
+    width: 42%;
+    margin: auto;
+  }
+  .more-like .nft-card .nft-img {
+    height: 200px;
+  }
+  .more-like .desc-sec .buy-btn {
+    display: none;
+  }
+  .more-like .desc-sec {
+    /* display: none; */
+  }
+  .creator-name{
+    font-size: 10px;
+    font-weight: 600;
+    color: #CBCCD1;
+    line-height: 17px;
+  }
+  .owned{
+        width: auto!important;
+  }
+  .sec-l {
+    width: 90%;
+    margin: auto auto 40px;
+  }
+  .owner-data {
+    flex-direction: column;
+  }
+  .m5 {
+    margin-left: 0;
+    margin-top: 25px;
+  }
+  .sec-r {
+    width: 90%;
+    margin: auto;
+  }
+  .nft-name {
+    font-size: 24px;
+  }
+  .nft-desc {
+    margin-top: 15px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .s-nft-price {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+}

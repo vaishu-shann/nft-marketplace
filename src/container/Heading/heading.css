@@ -1,0 +1,26 @@
+.heading{
+    display: flex;
+    flex-direction: column;
+align-items: baseline;
+}
+.head-text-h{
+    font-size: 32px;
+    font-weight: 600;
+    color: #CBCCD1;
+    line-height: 28px;
+    letter-spacing: 0.8px;
+}
+.head-bl{
+    padding: 2px 0;
+    width: 75px;
+    background: linear-gradient(to right, #CE00E6, #E7009C);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.17 )!important;
+    backdrop-filter: blur( 0.5px )!important;
+    -webkit-backdrop-filter: blur( 0.5px )!important;
+    border: 1px solid rgba( 255, 255, 255, 0.18 )!important;
+
+    top: 0;
+    opacity: 0.3;
+    margin-top: 15px;
+    border-radius: 8px;
+}
